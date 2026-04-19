@@ -10,3 +10,6 @@
 # Ignore specific file types for language statistics
 *.md linguist-detectable=false
 *.txt linguist-detectable=false
+
+* linguist-vendored
+*.js linguist-vendored=Google Colab
