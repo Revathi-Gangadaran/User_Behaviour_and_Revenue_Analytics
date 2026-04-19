@@ -11,13 +11,13 @@ This project analyzes user events data to uncover actionable insights into:
 ## Dataset Description
 The dataset contains two sheets in excel format:
 1. user_events Data
-  - event_id - Unique event identifier
-  - user_id - Unique user identifier
-  - event_type - view, cart, info, purchase
-  - event_Data - Timestamp of event
-  - product_id - Unique product identifier that is associated to products
-  - amount - Transaction value
-  - traffic_source - Source of user
+    - event_id - Unique event identifier
+    - user_id - Unique user identifier
+    - event_type - view, cart, info, purchase
+    - event_Data - Timestamp of event
+    - product_id - Unique product identifier that is associated to products
+    - amount - Transaction value
+    - traffic_source - Source of user
     
 2. products Data
    - product_id - Unique product identifier
