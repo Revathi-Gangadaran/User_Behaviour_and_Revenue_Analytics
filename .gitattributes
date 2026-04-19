@@ -6,8 +6,6 @@
 *.sql linguist-language=SQL
 *.pbix linguist-language=PowerBI
 
-* linguist-vendored
-*.js linguist-vendored=false
 
 # Ignore specific file types for language statistics
 *.md linguist-detectable=false
