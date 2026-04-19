@@ -1,15 +1,6 @@
-# Specify language types for the files
-*.py linguist-language=Python
-*.js linguist-language=JavaScript
-*.html linguist-language=HTML
-*.css linguist-language=CSS
-*.sql linguist-language=SQL
-*.pbix linguist-language=PowerBI
-
-
-# Ignore specific file types for language statistics
-*.md linguist-detectable=false
-*.txt linguist-detectable=false
-
-* linguist-vendored
-*.js linguist-vendored=Google Colab
+# Apply override to all files in the directory
+special-vendored-path/* linguist-vendored
+# Apply override to a specific file
+jquery.js -linguist-vendored
+# Apply override to all files and directories in the directory
+ano-dir/** linguist-vendored
