@@ -100,8 +100,3 @@ Contributions are welcome. Feel free to fork and improve the project
 ## Contact
 If you'd like to connect or discuss about this project:
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/revathi-gangadaran)
-
-
-
-
-
