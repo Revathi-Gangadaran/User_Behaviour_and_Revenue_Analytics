@@ -81,7 +81,7 @@ User_Behaviour_and_Revenue_Analytics/
 >> user_events.xlsx
 >> 
 > notebooks/
->> User_Behaviour_and_Revenue_Analytics.ipynb
+>> Users_Behaviour_and_Revenue_Analytics.ipynb
 >> 
 > Outputs/
 >> *.png
