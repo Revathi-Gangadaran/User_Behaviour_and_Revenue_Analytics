@@ -1,1 +1,3 @@
 *.Jupyter_Notebook linguist-language=Google_Colab
+* linguist-vendored
+*.js linguist-vendored=false
