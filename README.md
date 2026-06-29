@@ -1,14 +1,20 @@
-# User_Behaviour_and_Revenue_Analytics
+# 📊 User_Behaviour_and_Revenue_Analytics
 Real-world business analytics workflow using Python in Google Colab
 
-# Overview
+# 🔍 Overview
 This project analyzes user events data to uncover actionable insights into:
 - User behaviour patterns
 - Conversion funnel performance
 - Revenue trends
 - Product performance
 
-# Dataset Description
+## 📌 Key Insights:
+  - Most users interacts via top-of-funnel events (Views)
+  - Conversion drops significantly at purchase stage
+  - Certain traffic sources drive higher revenue quality users
+  - Revenue is concentrated amoung top-performing products
+    
+# 📦 Dataset Description
 The dataset contains two sheets in excel format:
 1. user_events Data
     - event_id - Unique event identifier
@@ -25,18 +31,17 @@ The dataset contains two sheets in excel format:
    - series - Series of product
    - sales_price - sales price of each product
 
-# Tech Stack
+# 🛠️ Tech Stack
 - Python
 - Pandas & Numpy - Data Manipulation
 - Matplotlib & Seaborn - Visualization
 - Google Colab - Development environment
 
-# Analysis Performed
+# 📈 Analysis Performed
 - ## Event Type Distribution :
   Understand how users interact with the platform.
   
   <img width="752" height="659" alt="image" src="https://github.com/user-attachments/assets/43b5884d-a0c4-41f5-9f7e-00b8df229bb3" />
-
 
   
 - ## Traffic Source Analysis:
@@ -60,13 +65,20 @@ The dataset contains two sheets in excel format:
   Tracks user journey from interaction to purchase
 <img width="743" height="670" alt="image" src="https://github.com/user-attachments/assets/0c4ac3c2-33a7-4325-9c29-418403668e66" />
 
-  ## Key Insights:
-  - Most users interacts via top-of-funnel events (Views)
-  - Conversion drops significantly at purchase stage
-  - Certain traffic sources drive higher revenue quality users
-  - Revenue is concentrated amoung top-performing products
- 
-# How to Run the Project:
+# Project Structure:
+User_Behaviour_and_Revenue_Analytics/
+> data/
+>> user_events.xlsx - Original dataset
+>> 
+> notebooks/
+>> Users_Behaviour_and_Revenue_Analytics.ipynb - Python file
+>> 
+> Outputs/
+>> *.png - Visualisation
+>> 
+> README.md - Documentation
+   
+# ▶️ How to Run the Project:
   1. Clone the repository:
 
          git clone https://github.com/Revathi-Gangadaran/User_Behaviour_and_Revenue_Analytics.git
@@ -75,27 +87,12 @@ The dataset contains two sheets in excel format:
   3. Upload dataset when prompted
   4. Run all cells
 
-# Project Structure:
-User_Behaviour_and_Revenue_Analytics/
-> data/
->> user_events.xlsx
->> 
-> notebooks/
->> Users_Behaviour_and_Revenue_Analytics.ipynb
->> 
-> Outputs/
->> *.png
->> 
-> README.md
 
 # Future Improvements
 - Cohort Analysis (Retention tracking)
 - Funnel Conversion Rate (%)
 - Interactive Dashboard (Power BI)
 - Machine Learning for user segmentation
-
-# Contributing
-Contributions are welcome. Feel free to fork and improve the project
 
 # Contact
 If you'd like to connect or discuss about this project:
