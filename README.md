@@ -37,7 +37,30 @@ The dataset contains two sheets in excel format:
 - Matplotlib & Seaborn - Visualization
 - Google Colab - Development environment
 
-# 📈 Analysis Performed
+# 🧹 Data Cleaning & Transformation
+Data preparation was performed using Power Query Editor, following a structured sequence:
+
+#### 1. Data Loading
+- Uploaded and loaded two excel files using file library in Google Colab.
+- Then, initial exploration performed.
+
+#### 2. Handling Missing Values
+- Identified nulls across user_events and products data fields
+- Replaced or removed missing values where appropriate
+
+#### 3. Data Type Corrections
+- Converted date fields to proper types and Ensured date fields were recognized correctly.
+- Removed duplicates.
+
+#### 4. Merging Tables
+- Created a unified dataset by merging:
+* user_events
+* products
+
+This produced a single fact table containing all relevant attributes.
+
+
+# 📈 Exploratory Data Analysis Performed
 - ## Event Type Distribution :
   Understand how users interact with the platform.
   
